@@ -180,10 +180,25 @@ section {
 }
 
 
+/* feature section */
+.features{
+  gap: 140px;
+}
+#feature-sec-title{
+  border-left: 5px solid #ff900e;
+  padding-left: 21px;
+}
+.feature-card{
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.061);
+  margin-bottom: 20px;
+}
 
-
-
-
+.feature-card .feature-title{
+  font-weight: 600;
+  font-size: 1.25rem;
+}
 
 /* responsive media */
 
