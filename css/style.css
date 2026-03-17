@@ -6,7 +6,9 @@
   font-weight: 400;
   font-style: normal;
 }
-
+p{
+  line-height: 16px;
+}
 /* =======. Shared Style ======= */
 /* *{
       margin: 0;
@@ -133,6 +135,7 @@ section {
 .fact-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  margin-top: 100px;
 }
 
 .fact {
@@ -200,12 +203,27 @@ section {
   font-size: 1.25rem;
 }
 
+.featured-arch img{
+  width: 100%;
+}
+#exp-badge{
+  padding: 45px 42px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-left: -100px;
+  margin-top: -100px;
+}
+#exp-years{
+  font-size: 4rem;
+  font-weight: 700;
+}
 /* responsive media */
 
 @media screen and (max-width: 576px) {
   .navbar,
   .nav-links,
-  .teams {
+  .teams,
+  .features {
     flex-direction: column;
   }
 
@@ -228,6 +246,11 @@ section {
   .our-features {
     margin-left: 20px;
   }
+  #exp-badge {
+    padding: 16px 8px;
+    margin-left: 0;
+    margin-top: 20px;
+}
 }
 
 
