@@ -25,6 +25,7 @@ p{
 
 .text-light-gray {
   color: #727272;
+  line-height: 16px;
 }
 
 .bg-light {
@@ -167,6 +168,9 @@ section {
 
 
 /* sponsor - related - style */
+.our-sponsor{
+  margin-bottom: 130px;
+}
 .sponsor-info{
       max-width: 540px;
       margin: 50px auto;
@@ -217,6 +221,18 @@ section {
   font-size: 4rem;
   font-weight: 700;
 }
+
+
+/* footer */
+footer{
+  background-color: #FFF4E7;
+}
+.copyright{
+  padding: 39px;
+  text-align: center;
+  margin-bottom: 216px;
+}
+
 /* responsive media */
 
 @media screen and (max-width: 576px) {
